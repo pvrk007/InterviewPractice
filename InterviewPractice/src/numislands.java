@@ -1,7 +1,7 @@
 
 public class numislands {
 	// logic is do dfs in all directions keep tract of count
-	public static void main(String [] args){
+	public  void main(String [] args){
 		char [][] grid={{1,1,1},{1,1,1},{1,1,1}};
 		int b=numIslands(grid);
 		System.out.println(b);
